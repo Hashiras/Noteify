@@ -6,7 +6,7 @@
 
 - [@CptZee](https://www.github.com/CptZee) - Backend Programmer
 - [@ellyxxvi](https://www.github.com/ellyxxvi) - Frontend Developer
-- [@GabsyDev](https://www.github.com/GabsyDev) - Team Captain, Developer
+- [@GabsyDev](https://www.github.com/GabsyDev) - Team Captain
 
 
 ## Features
@@ -36,3 +36,8 @@
 
 This is just a practice exercise that is aimed to see what we can produce within three hours of development. It is highly unlikely that we will update the project but there is a chance in the far future.
 
+
+## Installation
+
+See the releases section!
+    

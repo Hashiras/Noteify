@@ -193,10 +193,8 @@ public class ListFragment extends Fragment {
             List<Note> list = new ArrayList<>();
             NoteHelper noteHelper = new NoteHelper(getContext());
             for(Note note: noteHelper.get()){
-                if(!isAdmin) {
-                    if (note.getOwnerID() == ID)
-                        list.add(note);
-                }
+                if (note.getOwnerID() == ID)
+                    list.add(note);
             }
 
             Log.i("ListAdapter", "List size is: " + list.size());

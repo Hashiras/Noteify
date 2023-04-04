@@ -83,7 +83,7 @@ public class RegisterFragment extends Fragment {
             User user = new User();
             user.setUsername(username.getEditText().getText().toString());
             user.setPassword(password.getEditText().getText().toString());
-            user.setAdmin(true); //Set to true to make the registering user an admin
+            user.setAdmin(false); //Set to true to make the registering user an admin
             userHelper.insert(user);
             getActivity().getSupportFragmentManager().beginTransaction()
                     .replace(R.id.auth_container, new LoginFragment())
